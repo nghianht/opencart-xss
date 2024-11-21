@@ -14,4 +14,5 @@ Access the shopping page, find the product recently edited by the admin, and we 
  ![image](https://github.com/user-attachments/assets/c775ad3d-7903-4dd9-86d0-fc987b934a27)
 
 **Impact**
+
 Stored XSS allows attackers to inject and store malicious code on the server, leading to data theft, account takeover by steal cookie, malware distribution, and loss of business reputation. Prevent it by validating input, encoding output, using HTTPOnly cookies, and implementing CSP.
