@@ -7,7 +7,7 @@ The attacker injects an XSS payload into the product description, when a custome
 **PoC**
 
 Log in with the admin account, go to the **Catalog**-**Product** section, and select any product.
-In the **Description** section, select Source and inject the payload <script src=1 onerror=("XSS")> and click **Save**
+In the **Description** section, select **Source** and inject the payload <script src=1 onerror=("XSS")> and click **Save**
 ![image](https://github.com/user-attachments/assets/2745b3b8-1d13-428c-b4b5-83980e3c7fa9)
  
 Access the shopping page, find the product recently edited by the admin, and we see that the payload is successfully executed
