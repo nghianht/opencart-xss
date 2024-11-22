@@ -1,6 +1,6 @@
 **Summary**
 
-The system is experiencing a Stored XSS vulnerability at the product view location where admin or any user with permission to edit product information can inject HTML code containing an XSS payload to display to the users.
+The Opencart app is experiencing a Stored XSS vulnerability at the product view location where admin or any user with permission to edit product information can inject HTML code containing an XSS payload to display to the users.
 **Details**
 
 The attacker injects an XSS payload into the product description, when a customer or user accesses the shopping page and searches for the product that was recently edited, the XSS payload is successfully executed.
